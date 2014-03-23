@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jason Harrison - Other Skills</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Jason Harrison</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="active"><a href="otherSkills.html">Other Skills</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <!--<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Virtualization</h1>
+              <a href="https://www.virtualbox.org/"><img width="140" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Virtuization" /></a>
+              <p>Use for testing new technologies</p>
+              <p><a class="btn btn-lg btn-primary" href="#virt" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Web Servers</h1>
+              <a href="http://nginx.org/"><img height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="NGINX logo" /></a>
+              <p>Modern Unix web server</p>
+              <p><a class="btn btn-lg btn-primary" href="#nginx" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Small Systems and Servers</h1>
+              <a href="http://www.raspberrypi.org/"><img height="140" src="http://www.raspberrypi.org/wp-content/uploads/2012/03/Raspi_Colour_R.png" alt="kaboom logo" /></a>
+              <p>Utilize small systems and server at home</p>
+              <p><a class="btn btn-lg btn-primary" href="#smlSys" role="button">learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+   
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="virt">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">virtualization <span class="text-muted">Virtual Box</span></h2>
+          <p class="lead">I utilize <a href="https://www.virtualbox.org/">Oracle Virtual Box</a> at home for development testing as well as testing new technologies such as NGINX and ZFS.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="img/virtOG.png" alt="Virtuaization">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="nginx">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Nginx-logo.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Web Servers <span class="text-muted">NGINX</span></h2>
+            <p class="lead">Set up web server using the modern <a href="http://nginx.org/">NGINX</a> web server utilizing other modern technologies such as <a href="http://php-fpm.org/">PHP-FMP</a> with Unix sockets and <a href="http://memcached.org/">Memcached</a>.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="smlSys">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Small Systems and Servers <a href="http://www.raspberrypi.org/"><span class="text-muted">RaspberryPI.</span></a></h2>
+            <p class="lead">Utilize small systems such as the <a href="http://www.raspberrypi.org/">RaspberryPI</a> for home projects such as media set-top boxes and small servers.  As well as a home file server using <a href="https://www.freebsd.org/">FreeBSD</a> with ZFS for file redundancy.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="img/rPIog.JPG" alt="Kaboom game">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+    <!--</div> /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+  </body>
+</html>
