@@ -10,9 +10,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,7 +24,6 @@
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -50,7 +46,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -62,38 +57,46 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <!--<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">-->
           <div class="container">
             <div class="carousel-caption">
               <h1>Virtualization</h1>
-              <a href="https://www.virtualbox.org/"><img width="140" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Virtuization" /></a>
+              <a href="https://www.virtualbox.org/"><img class="carousel-img-long" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Virtuization" /></a>
               <p>Use for testing new technologies</p>
               <p><a class="btn btn-lg btn-primary" href="#virt" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <!--<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">-->
           <div class="container">
             <div class="carousel-caption">
               <h1>Web Servers</h1>
-              <a href="http://nginx.org/"><img height="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="NGINX logo" /></a>
+              <a href="http://nginx.org/"><img class="carousel-img-wide" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="NGINX logo" /></a>
               <p>Modern Unix web server</p>
               <p><a class="btn btn-lg btn-primary" href="#nginx" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <!--<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">-->
           <div class="container">
             <div class="carousel-caption">
               <h1>Small Systems and Servers</h1>
-              <a href="http://www.raspberrypi.org/"><img height="140" src="http://www.raspberrypi.org/wp-content/uploads/2012/03/Raspi_Colour_R.png" alt="kaboom logo" /></a>
+              <a href="http://www.raspberrypi.org/"><img class="carousel-img-long" src="http://www.raspberrypi.org/wp-content/uploads/2012/03/Raspi_Colour_R.png" alt="kaboom logo" /></a>
               <p>Utilize small systems and server at home</p>
               <p><a class="btn btn-lg btn-primary" href="#smlSys" role="button">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Python</h1>
+              <a href="http://www.python.org/"><img class="carousel-img-long" src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" alt="Python logo" /></a>
+              <p>Utilize Python for programming</p>
+              <p><a class="btn btn-lg btn-primary" href="#python" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -101,14 +104,8 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
-
-
-
-   
       <!-- START THE FEATURETTES -->
-
       <hr class="featurette-divider">
-
       <div class="row featurette" id="virt">
         <div class="col-md-7">
           <h2 class="featurette-heading">virtualization <span class="text-muted">Virtual Box</span></h2>
@@ -118,37 +115,38 @@
             <img class="featurette-image img-responsive" src="img/virtOG.png" alt="Virtuaization">
         </div>
       </div>
-
       <hr class="featurette-divider">
-
       <div class="row featurette" id="nginx">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Nginx-logo.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Nginx-logo.png" alt="NGINX Logo">
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading">Web Servers <span class="text-muted">NGINX</span></h2>
             <p class="lead">Set up web server using the modern <a href="http://nginx.org/">NGINX</a> web server utilizing other modern technologies such as <a href="http://php-fpm.org/">PHP-FMP</a> with Unix sockets and <a href="http://memcached.org/">Memcached</a>.</p>
         </div>
       </div>
-
       <hr class="featurette-divider">
-
       <div class="row featurette" id="smlSys">
         <div class="col-md-7">
             <h2 class="featurette-heading">Small Systems and Servers <a href="http://www.raspberrypi.org/"><span class="text-muted">RaspberryPI.</span></a></h2>
             <p class="lead">Utilize small systems such as the <a href="http://www.raspberrypi.org/">RaspberryPI</a> for home projects such as media set-top boxes and small servers.  As well as a home file server using <a href="https://www.freebsd.org/">FreeBSD</a> with ZFS for file redundancy.</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive" src="img/rPIog.JPG" alt="Kaboom game">
+            <img class="featurette-image img-responsive" src="img/rPIog.JPG" alt="RaspberyPI media center">
+        </div>
+      <hr class="featurette-divider">
+      <div class="row featurette" id="python">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/python.png" alt="Simple Python game">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Python <span class="text-muted">programming</span></h2>
+            <p class="lead">I have independently learned the Python programming language and have utilized it for performing scripting tasks and independent projects.</p>
         </div>
       </div>
-
       <hr class="featurette-divider">
       <!-- /END THE FEATURETTES -->
-
     <!--</div> /.container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
